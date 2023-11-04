@@ -1,0 +1,11 @@
+
+* ) la fonction main() pas type de int ; 
+
+* ) apres correct l'erreur je pense affiche la resulta suivant : 
+    {
+        dans f : 999    // car la condition de construction de class A est vrai  dans la fonction f() 
+        suit main       /*car il n'y a pas d'autres exceptions levées ou traitées après le bloc try dans la fonction main() , 
+                        //  n'est pas des  expetions et la condition pas verifier pour fait l'exceptions { dans main : 999 } 
+                      */
+    }
+
